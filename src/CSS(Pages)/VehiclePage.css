@@ -1,0 +1,106 @@
+
+ 
+    .mainvehiclepage {
+        padding: 150px 70px 70px 70px;
+        position: relative;
+        z-index: 0;
+    }
+    .vhclbg1 {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 40%;
+        height: 100%;
+        background-color: #6BB8B8;
+        
+        border-top-right-radius: 170%;
+        border-bottom-right-radius: 40%;
+        opacity: 0.7;
+    }
+    .vhclbg2 {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 47%;
+        height: 100%;
+        background: linear-gradient(45deg, rgba(245,70,66, 0.35), rgba(8,83,156, 0.35));
+        z-index: 0;
+        border-top-right-radius: 170%;
+        border-bottom-right-radius: 40%;
+        opacity: 0.7;
+        
+    }
+    .vhclbg3 {
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        width: 15%;
+        height: 100%;
+        background-color:#6BB8B8 ;
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 390%;
+        border-bottom-right-radius: 20%;
+    }
+    .vhclbg4 {
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        width: 18%;
+        height: 100%;
+        background: linear-gradient(45deg, rgba(245,70,66, 0.35), rgba(8,83,156, 0.35));
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 390%;
+        border-bottom-right-radius: 20%;
+    }
+    .imagvehiclecon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+    .imgvehicle {
+        width: 500px;
+        height: 300px;
+        background-size: cover;
+        
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+    }
+    .headingvehicle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4em;
+        font-weight: 900;
+        margin-bottom: 10px;
+        z-index: 100;
+    }
+    .rightvehicleheading {
+        width: 100%;
+        height: max-content;
+        z-index: 400;
+        
+    }
+
+    @media only screen and (max-width:600px) {
+        .mainvehiclepage {
+            padding: 10px;
+            position: relative;
+            z-index: 0;
+        }
+        .imagvehiclecon {
+            width: 98%;
+            z-index:5;
+            position: relative;
+            
+        }
+        .headingvehicle {
+            width: 100%;
+            text-align: center;
+        }
+        
+        
+    }

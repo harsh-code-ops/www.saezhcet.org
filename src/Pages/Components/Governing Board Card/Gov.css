@@ -1,0 +1,61 @@
+.maincardgov {
+    width: 320px;
+    height: 150px;
+    
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: white;
+}
+.maincardgov:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 40%);
+    transform: scale(1.03);
+    background-color: white;
+}
+.leftgov {
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+    
+   
+}
+.photogov {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.rightgov {
+    padding: 20px 10px;
+   
+    width: 55%;
+    position: relative;
+}
+.Namegov {
+    font-size: 1.05em;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: black;
+}
+.postgov {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: rgb(47, 45, 45);
+
+}
+.linksgov {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    
+    font-size: 1.4em;
+    display: flex;
+    gap: 6px;
+}
+.linksgov a:hover {
+    transform: scale(1.05);
+}

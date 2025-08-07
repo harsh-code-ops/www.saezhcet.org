@@ -1,0 +1,135 @@
+.vismismain {
+    width: 100%;
+    height: 650px;
+   
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+    justify-content:space-between;
+}
+.leftvis {
+    width: 60%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px 90px;
+    justify-content: space-evenly;
+}
+.leftinbox {
+    width: 590px;
+    height: 180px;
+   
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftinicon {
+    width:23%;
+    height: 75%;
+    border-radius: 50%;
+
+    background-color: aqua;
+    
+}
+.visicon {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZnhXqmpAL49Z2P1k4EILr5f_AeTdp0BebyQ&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+
+}
+.misicon {
+    background-image: url("https://xim.edu.in/wp-content/uploads/2020/02/mission_new.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.valicon {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxqp6HZ4FT8bHQjAdvxgXHIHid80tEmrJpTg&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+}
+.rightin {
+    width: 75%;
+    padding: 4px;
+}
+.headingvismis {
+    font-size: 1.2em;
+    font-weight: 900;
+    color: aliceblue;
+    margin-bottom: 3px;
+    
+}
+.vismistexts {
+    font-size: 0.85em;
+    color: rgb(222, 215, 215);
+    font-weight: 500;
+}
+.rightvis {
+    width: 38%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 90%;
+    background-color: #178582;
+    position: relative;
+}
+.rightvisin {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 90%;
+    background-color: #142E4B;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(45deg, rgba(0,0,0, 0.85), rgba(8,83,156, 0.75)),url("https://drive.google.com/uc?id=14A5ULhHuyGSxCmwnyxylEyXP7hZ2sQ8a");
+
+}
+@media only screen and (max-width:800px){
+    .vismismain {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+
+    }
+    .leftvis {
+        width: 100%;
+        padding: 20px 10px;
+        gap: 30px;
+        z-index: 100;
+
+
+    }
+    .leftinbox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        justify-content: center;
+        padding: 10px;
+        
+        
+    }
+    .leftinicon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .rightin {
+        width: 100%;
+        
+    }
+    .headingvismis {
+        font-size: 1em;
+    }
+    .rightvis {
+        width: 100%;
+        height: 700px;
+        z-index: 1;
+        position: relative;
+        top: -200px;
+    }
+}

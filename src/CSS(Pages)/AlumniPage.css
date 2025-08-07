@@ -1,0 +1,74 @@
+.Mainalumpage {
+    padding-top: 130px;
+    background-color: #f4f5ff;
+
+}
+.alumcon {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.alumpagehead {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    
+   background-position: bottom;
+  
+   background: radial-gradient(circle at center, #d0d8f5 0%, #f4f5ff 46.4%, #fff 156.29%);
+}
+.alumhead {
+   font-size: 1.3em;
+   font-weight: 900;
+   padding: 0px;
+   color: #0a1828;
+   margin-bottom: 4px;
+   text-align: center;
+   
+
+}
+.alumdesc {
+    color: #178582;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+}
+@media only screen and (max-width:600px) {
+    .Mainalumpage {
+        padding-top: 0px;
+    }
+    .alumpagehead {
+        
+        width: 100%;
+        height: 200px;
+        padding: 80px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #09203f 50%, #537895 100%);
+    }
+    .alumhead {
+        font-size: 1.1em;
+        font-weight: 800;
+        margin-bottom: 7px;
+        color: aliceblue;
+        
+        
+    }
+    .alumdesc {
+        font-size: 0.9em;
+        font-weight: 500;
+        color: aliceblue;
+    }
+    .alumcon {
+        padding-bottom: 30px;
+    }
+    
+}

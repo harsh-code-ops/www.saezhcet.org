@@ -1,0 +1,62 @@
+.mainroutediv {
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(to bottom,rgba(10,24,40,0.7),rgba(10,24,40,0.8)), url("https://drive.google.com/uc?id=13EA9KOTWf9hoUeS2raSryiuwBB13upMJ");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding-left: 100px;
+   
+    color: #cdc7c7;
+}
+.routesection {
+    
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 140px;
+    
+}
+.routesection>span {
+    color: #cdc7c7;
+    
+}
+.routelastheading {
+    padding-top: 80px;
+    font-size: 2em;
+    font-weight: 800;
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+
+.mainroutediv:hover .routelastheading {
+    -webkit-text-stroke:1px white;
+    color: transparent;
+    
+    
+}
+
+@media only screen and (max-width:600px) {
+    .mainroutediv {
+        width: 100%;
+        height: 200px;
+        padding: 10px 10px ;
+        background-image:linear-gradient(to bottom,rgba(10,24,40,0.7),rgba(10,24,40,0.8)), url("https://drive.google.com/uc?id=13EA9KOTWf9hoUeS2raSryiuwBB13upMJ");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+   
+        
+    }
+    .routesection {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.62em;
+    }
+    .routelastheading {
+        font-size: 1.3em;
+        padding: 40px 0px;
+    }
+}

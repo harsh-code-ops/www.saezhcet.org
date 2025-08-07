@@ -1,0 +1,9 @@
+.animation {
+    animation: trans 0.3s linear;
+}
+
+@keyframes trans {
+    to {
+      transform: translateX(-200px);
+    }
+  }

@@ -1,0 +1,208 @@
+@media only screen and (min-width:600px) {
+    .mainmainbox {
+        width: 100%;
+        height: 600px;
+        
+
+    }
+    .mainmsgbox {
+        background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+       
+
+    }
+    .msgphoto {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        
+        margin: 0 auto;
+        border: 3px solid whitesmoke;
+        position: relative;
+        top: 50px;
+        z-index: 3;
+        
+    }
+    .msgtext {
+        width: 700px;
+        height: max-content;
+        padding: 45px;
+        /* From https://css.glass */
+      /* From https://css.glass */
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 7px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(3.4px);
+      -webkit-backdrop-filter: blur(3.4px);
+        margin: 0 auto;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .quotes {
+        display: flex;
+        justify-content: center;
+        gap:5px;
+        margin: 0 auto;
+        font-size: 1.7em;
+        font-weight: 800;
+        margin-bottom: 5px;
+        color: whitesmoke;
+    }
+    .quotes span:nth-child(1) {
+        position: relative;
+        top: -3px;
+    }
+    .quotes span:nth-child(2) {
+        position: relative;
+        top: 3px;
+    }
+    .maintexts {
+        font-size: 0.9em;
+        font-weight: 600;
+        text-align:justify;
+        margin-bottom: 30px;
+        color: #A6ACB2;
+    }
+    .detailstext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+    .Name {
+        font-size: 1em;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+    .designation {
+        font-size: 0.75em;
+        font-weight: 500;
+        color: white;
+        
+        
+    }
+    .headingtesti {
+        color: whitesmoke;
+        font-size: 1.3em;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .colorchange {
+        color: #178582;
+        font-size: 1.5!important;
+        font-weight: 800;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .mainmainbox {
+        height: 600px;
+    }
+    
+    .mainmsgbox {
+        width: 100%;
+        height: 600px;
+        background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+       
+
+    }
+    .msgphoto {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        
+        margin: 0 auto;
+        border: 1px solid whitesmoke;
+        position: relative;
+        top: 30px;
+        z-index: 3;
+        
+    }
+    .msgtext {
+        width: 90%;
+        margin: 0 auto;
+        height: max-content;
+        padding: 20px;
+        /* From https://css.glass */
+      /* From https://css.glass */
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 7px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(3.4px);
+      -webkit-backdrop-filter: blur(3.4px);
+
+
+        margin: 0 auto;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .quotes {
+        display: flex;
+        justify-content: center;
+        gap:5px;
+        margin: 0 auto;
+        font-size: 1.4em;
+        font-weight: 800;
+        margin-bottom: 5px;
+        color: whitesmoke;
+        padding-top: 20px;
+    }
+    .quotes span:nth-child(1) {
+        position: relative;
+        top: -3px;
+    }
+    .quotes span:nth-child(2) {
+        position: relative;
+        top: 3px;
+    }
+    .maintexts {
+        font-size: 0.85em;
+        font-weight: 600;
+        text-align:justify;
+        margin-bottom: 30px;
+        color:#A6ACB2 ;
+    }
+    .detailstext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+    .Name {
+        font-size: 1em;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+    .designation {
+        font-size: 0.75em;
+        font-weight: 500;
+        color: white;
+        
+        
+    }
+    .headingtesti {
+        color: whitesmoke;
+        font-size: 1.1em;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .colorchange {
+        color: #178582;
+        font-size: 1.3!important;
+        font-weight: 800;
+    }
+    
+    
+}

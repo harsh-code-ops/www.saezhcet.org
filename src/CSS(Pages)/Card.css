@@ -1,0 +1,257 @@
+@media  screen and (min-width:480px) {
+    .cardteammain {
+        width:360px;
+        height:450px;
+        
+        border: 1px solid #eee8e8;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+        padding: 20px;
+        
+    }
+    .cardteammain,.cardteammain:after,.cardteammain:before {
+        transition: all .5s;
+    }
+    .cardteammain {
+        color: white !important;
+        position:relative;
+        z-index: 1;
+        
+        font-weight: 500;
+        
+    }
+    .cardteammain:hover {
+        color: black!important;
+        font-weight: 500;
+    }
+    .cardteammain:after {
+        display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      width: 100%;
+      height: 1px;
+      content: '.';
+      color: transparent;
+      background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+      visibility: none;
+      opacity: 0;
+      z-index: -1;
+    }
+    .cardteammain:hover:after {
+        opacity: 1;
+      visibility: visible;
+      height: 100%;
+    }
+    .teampicmain {
+        width: 100%;
+        height: 50%;
+    }
+    .teamdescmain {
+        width: 100%;
+    
+    
+        padding-top: 15px;
+        
+    }
+    .teamheadingmain {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
+        color: #178582;
+    }
+    .teamheadingmainhov {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
+        color: white;
+    }
+    .teamdshortdescmain {
+        font-size: 0.9em;
+        font-weight: 400;
+        color: #aaaaaa;
+    }
+    .btnteampath {
+        font-weight: 600;
+        color: black;
+    }
+    .btnteampathhov {
+        font-weight: 600;
+        color: white;
+    }
+    .btnteampathhov:hover {
+        cursor: pointer;
+    }
+    .btnteampath:hover {
+        cursor: pointer;
+    }
+    .followlinkscon {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 25px;
+        color: black;
+        
+    }
+    .followlinkscon a {
+        text-decoration: none;
+        color: black;
+    }
+    .followlinksconhov a:hover {
+       font-size: 23px;
+    }
+    .followlinksconhov a {
+        text-decoration: none;
+        color: white;
+
+    }
+    .followlinksconhov {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 25px;
+        color: white;
+
+    }
+    .followlinksconhov:hover {
+        cursor: pointer;
+    }
+    .followlinkscon:hover {
+        cursor: pointer;
+    }
+    .icontmpagecon {
+        margin-right: 10px;
+    }
+
+    
+}
+@media screen and (max-width:480px){
+    .cardteammain {
+        width: 100%;
+        height: 500px;
+        border: 1px solid #eee8e8;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .cardteammain,.cardteammain:after,.cardteammain:before {
+        transition: all .5s;
+    }
+    .cardteammain {
+        color: white !important;
+        position:relative;
+        z-index: 1;
+        
+        font-weight: 500;
+        
+    }
+    .cardteammain:hover {
+        color: black!important;
+        font-weight: 500;
+    }
+    .cardteammain:after {
+        display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      width: 100%;
+      height: 1px;
+      content: '.';
+      color: transparent;
+      background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+      visibility: none;
+      opacity: 0;
+      z-index: -1;
+    }
+    .cardteammain:hover:after {
+        opacity: 1;
+      visibility: visible;
+      height: 100%;
+    }
+    .teampicmain {
+        width: 100%;
+        height: 50%;
+    }
+    .teamdescmain {
+        width: 100%;
+    
+    
+        padding-top: 15px;
+        
+    }
+    .teamheadingmain {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
+        color: black;
+    }
+    .teamheadingmainhov {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
+        color: white;
+    }
+    .teamdshortdescmain {
+        font-size: 0.9em;
+        font-weight: 400;
+        color: #aaaaaa;
+    }
+    .btnteampath {
+        font-weight: 600;
+        color: black;
+    }
+    .btnteampathhov {
+        font-weight: 600;
+        color: white;
+    }
+    .btnteampathhov:hover {
+        cursor: pointer;
+    }
+    .btnteampath:hover {
+        cursor: pointer;
+    }
+    .followlinkscon {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 25px;
+        color: black;
+        
+    }
+    .followlinkscon a {
+        text-decoration: none;
+        color: black;
+    }
+    .followlinksconhov a:hover {
+       font-size: 23px;
+    }
+    .followlinksconhov a {
+        text-decoration: none;
+        color: white;
+
+    }
+    .followlinksconhov {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 25px;
+        color: white;
+
+    }
+    .followlinksconhov {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 25px;
+        color: white;
+
+    }
+    .followlinkscon:hover {
+        cursor: pointer;
+    }
+    .icontmpagecon {
+        margin-right: 10px;
+    }
+
+    
+}

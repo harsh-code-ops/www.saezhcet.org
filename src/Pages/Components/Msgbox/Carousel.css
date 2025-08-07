@@ -1,0 +1,15 @@
+.maincar {
+  width: 100%;
+  background-color: aqua;
+  height: 500px;
+}
+.itemcar:nth-child(1) {
+  width: 600px;
+  height: 300px;
+  background-color: red;
+}
+.itemcar:nth-child(2) {
+  width: 600px;
+  height: 300px;
+  background-color: green;
+}

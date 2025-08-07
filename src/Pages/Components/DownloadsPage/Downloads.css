@@ -1,0 +1,126 @@
+.dmain {
+    width: 100%;
+    height: 100%;
+    padding-top: 230px;
+    padding-bottom: 150px;
+    display:flex ;
+    justify-content: space-around;
+    
+    background-image: linear-gradient(21.47deg,#d0d8f5 -14.07%,#f4f5ff 46.4%,#fff 156.29%);
+}
+
+
+.dataleft {
+    width: 500px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.8);
+      
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3.4px);
+      padding: 50px 20px 50px 20px;
+}
+
+.newsltrhead {
+    font-size: 2em;
+    font-weight: 800;
+    color: #178582;
+    text-align: center;
+}
+.newsltrdes {
+    font-size: 1em;
+    font-weight: 600;
+    color: #178582;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.notifybox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.notifyin {
+    width: 75%;
+    border: none;
+    height: 35px;
+    padding-left: 20px;
+    color: white;
+}
+.notifybtn {
+    width: 25%;
+    border: none;
+    background-color: #178582;
+    color: #fff;
+    height: 35px;
+}
+.pdfs {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+.pdftitle {
+    color: #178582;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.pdftitle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pdfbtn {
+    border: none;
+    background-color:none;
+    color: #178582;
+}
+
+.usfldw {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width:600px) {
+    .dmain {
+        padding:50px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .dataright {
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+    }
+    .dataleft {
+        width: 95%;
+        margin: 0 auto;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.8);
+          
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+          backdrop-filter: blur(3px);
+          -webkit-backdrop-filter: blur(3.4px);
+          padding: 50px 20px 50px 20px;
+    }
+    .notifybox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        gap: 10px;
+    }
+    .notifyin {
+        width: 100%;
+    }
+    .notifybtn {
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+    
+}

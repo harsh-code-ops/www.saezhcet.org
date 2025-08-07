@@ -1,0 +1,637 @@
+@media only screen and (min-width: 600px) {
+
+    .maincontactdiv {
+        background-color:none;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        background-image: linear-gradient(21.47deg,#d0d8f5 -14.07%,#f4f5ff 46.4%,#fff 156.29%);
+    }
+    .contactusheading {
+        background: radial-gradient(circle at center, #d0d8f5 0%, #f4f5ff 46.4%, #fff 156.29%);
+
+    }
+.upperdivcontact {
+    width: 100%;
+    height:250px;
+   
+    
+   /* background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% )!important;
+    */
+}
+.errconbox {
+    padding: 10px 70px;
+}
+.contactusheading {
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 20px;
+    background-position: bottom center;
+    
+}
+.contitle {
+    
+     color: #0a1828;
+     text-align: center;
+    font-size: 1.3em;
+    font-weight: 900;
+    
+}
+.lineborder {
+    width: 40px;
+    height: 3px;
+    background-color: #178582;
+    margin: 0 auto;
+}
+.condesc {
+    
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #178582;
+    text-align: center;
+}
+.maincontactinputdiv {
+    width: 100%;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 50px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+
+    
+   
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+.inputleftdiv {
+    width: 700px;
+    height: max-content;
+    display: flex;
+   
+    flex-wrap: wrap;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    padding-bottom: 30px;
+
+    
+    
+    
+
+
+}
+.msgtextheading {
+    width:100%;
+    
+    height:auto;
+    float: left;
+    font-size: 0.9em;
+    font-weight: 800;
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.inputinsideleft {
+    width: 100%;
+    height: 100%;
+   
+
+    padding-top: 30px;
+    
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+  
+  
+
+}
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.emphone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.labels {
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.labeldiv {
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+
+
+.btndiv {
+    padding-right: 45px;
+}
+
+
+.btn1 {
+    
+    background: #178582;
+    color: white;
+    font-size: 800;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    float: right;
+}
+.btn1:hover {
+    background-color: #4b7753;
+}
+.inputinsideright {
+    width:50%;
+    height: 100%;
+    padding-top: 50px;
+  
+   
+    
+    
+}
+
+.textadressdiv {
+    width: 330px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #09203f 0%, #537895 100%);
+    border-radius: 5px;
+    padding-left: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.emailinfo {
+    padding-left: 0px;
+    padding-top: 30px;
+    color: azure;
+}
+.emailinfoprop {
+    font-size: 1.2em;
+    font-weight: 300;
+
+    
+}
+.emailinfovalue {
+    font-weight: 400;
+   
+    padding-top: 5px;
+}
+.contactinfo {
+    padding-top: 15px;
+    font-size: 0.9em;
+    font-weight: 800;
+    padding-right: 30px;
+    width: 100%;
+    color: #bfa181;
+}
+.contacttexts {
+    color: aliceblue !important; ;
+    font-size: 0.8em ;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.locationbox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color:aliceblue ;
+}
+.locationtexts {
+    color:aliceblue !important;
+}
+.emailtext a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.phonenumber a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.emailbox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.phonebox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.symbols {
+    font-size: 14px;
+}
+.adressbox {
+    padding-top: 60px;
+    color: #178582;
+}
+textarea {
+    background-color: azure;
+}
+.contactlinks {
+    padding-top: 30px;
+    display: flex;
+    width: 80%;
+    float: left;
+    justify-content: space-evenly;
+}
+.contactlinks a:hover {
+    color: #bfa181;
+}
+.map {
+    height: 100%;
+  padding-bottom: 50px;
+    
+   
+   
+}
+.mapcon {
+    width: 100%;
+    height: 600px;
+    
+   
+    padding: 0px 130px 50px 130px;
+    position: relative;
+   
+}
+.mapconbg1 {
+    width: 100%;
+    height: 75%;
+    background-color: #6BB8B8;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 30%;
+    
+    z-index: 0;
+    opacity: 0.7;
+    
+}
+.mapconbg2 {
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(45deg, rgba(245,70,66, 0.35), rgba(8,83,156, 0.35));
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 30%;
+    
+    z-index: 0;
+    opacity: 0.7;
+    
+}
+.labels {
+    font-weight: 500;
+}
+input,textarea,select {
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    background-color: rgb(0 0 0 / 0.2)
+}
+input:focus {
+    border: 1px solid red;
+}
+.fielderrmsg {
+   width: 50%;
+   height: 30px;
+   font-size: 0.87em;
+   font-weight: 600;
+   color: #D00000;
+
+}
+.redborder {
+    border: 1px solid red;
+}
+.maphead {
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.google-map-code {
+    box-shadow:  0px 3px 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+.errred {
+    color: red;
+}
+
+  
+}
+@media only screen and (max-width: 600px) {
+    .upperdivcontact {
+        width: 100%;
+        height: max-content;
+        
+    }
+    .errconbox {
+        padding-top: 10px;
+    }
+    .contactusheading {
+        padding-top: 50px;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        background-image: linear-gradient(to bottom, #09203f 50%, #537895 100%);
+        
+    }
+    .lineborder {
+        width: 40px;
+        height: 3px;
+        background-color: #178582;
+        margin: 0 auto;
+    
+
+    }
+    .contitle {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    .condesc {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 0.9em;
+        font-weight: 400;
+        
+    }
+    .maincontactinputdiv{
+        
+        width: 100%;
+       height: 100%;
+       padding-top: 12px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: aliceblue;
+    }
+    .name {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+   
+    .btn1 {
+        background: #178582;
+    color: white;
+    font-size: 800;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+    float: right;
+    margin-top: 10px;
+        
+    }
+    
+    .inputleftdiv {
+        width: 100%;
+       
+        margin: 0 auto;
+        padding-top: 0px!important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .labeldiv {
+        margin-bottom: 10px!important;
+    }
+    .labeldiv input {
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+    }
+    .labeldiv textarea {
+        width: 100%!important;
+        padding-left: 15px;
+    }
+    .msgtextheading {
+        font-size: 1.2em;
+        font-weight: 700;
+        text-align: left;
+        padding-top: -25px!important;
+    }
+    .inputinsideleft {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+        padding-top: 30px!important;
+    
+    }
+    
+    .labeldiv {
+        width: 100%!important;
+        padding: 0px!important;
+        margin: 0 auto;
+        
+    }
+    .labels {
+        font-weight: 500;
+    }
+    input,textarea,select {
+    
+    
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    select {
+        width: 100%;
+        height: 35px;
+        padding-left: 13px;
+        padding-right: 13px;
+        
+    }
+    .fielderrmsg {
+        height: 30px;
+        width: 100%;
+    
+        color: red;
+        font-weight: 500;
+        
+        font-size: 0.86em;
+    }
+    .redborder {
+        border: 1px solid red;
+    }
+    
+    
+    .inputinsideright {
+        width: 100%;
+        padding: 0px!important;
+    }
+
+    .textadressdiv {
+       
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+            border-radius: 0px;
+            padding-left: 10px 20px;
+            color: whitesmoke;
+        
+        
+    }
+    .contactinfo {
+        padding-top: 25px;
+        font-size: 1em;
+        font-weight: 800;
+        padding-left: 20px;
+        color: whitesmoke;
+
+    }
+    
+    .locationbox {
+        padding: 10px 20px;
+    }
+    .locationtexts {
+        font-size: 0.9em ;
+        font-weight: 500;
+    }
+    .adressbox {
+        padding-top: 30px;
+        color: azure;
+    }
+    .emailbox {
+        padding: 10px 20px;
+    }
+    .emailtext {
+        font-size: 0.9em;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    .emailtext a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .phonebox {
+        padding: 10px 20px;
+    }
+    .phonenumber {
+        font-size: 0.9em;
+        font-weight: 500px;
+    }
+    .phonenumber a {
+        text-decoration: none;
+        color: whitesmoke;
+
+    }
+    .emailinfoprop {
+        font-size: 1.2em;
+        font-weight: 300;
+    
+        
+    }
+    .emailinfovalue {
+        font-weight: 400;
+       
+        padding-top: 5px;
+    }
+    
+    
+    .contactlinks {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        width: 80%;
+        float: center;
+        justify-content: space-evenly;
+        
+    }
+   
+    
+    .mapcon {
+        padding-top: 20px;
+        width: 100%;
+       height: max-content;
+        padding-bottom: 60px;
+        padding-left: 5px ;
+        padding-right: 5px;
+        position: relative;
+    }
+    .mapconbg1 {
+        width: 100%;
+        height: 75%;
+        background-color: #6BB8B8;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        border-top-left-radius: 70%;
+        border-top-right-radius: 30%;
+        
+        z-index: 0;
+        opacity: 0.5;
+        
+    }
+    .mapconbg2 {
+        width: 100%;
+        height: 60%;
+        background: linear-gradient(45deg, rgba(245,70,66, 0.35), rgba(8,83,156, 0.35));
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        border-top-left-radius: 70%;
+        border-top-right-radius: 30%;
+        
+        z-index: 0;
+        opacity: 0.5;
+        
+    }
+    .maphead {
+        font-size: 1em;
+        font-weight: 800;
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .google-map-code{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+        
+    }
+    .map{
+      width: 100%;
+      height: 500px;
+      margin-bottom: 20px;
+
+    }
+    .mapframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .errred {
+        color: red;
+        font-weight: 400;
+    }
+}

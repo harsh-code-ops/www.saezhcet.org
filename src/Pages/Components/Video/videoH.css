@@ -1,0 +1,148 @@
+
+
+
+@media only screen and (min-width:600px) {
+.mainvideocon {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
+  
+   
+}
+
+.homelayer {
+    position: absolute;
+    padding: 150px 0px;
+    top: 0px ;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0, 0.95), rgba(8,83,156, 0.75));
+}
+.contenthome {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnabtuscon,.btnabtuscon:after,.btnabtuscon:before {
+    transition: all .5s;
+}
+.btnabtuscon {
+    
+    
+    width: 110px;
+    height: 40px;
+   
+
+   
+    background-color:#02b7b1 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: white;
+    z-index: 10;
+    
+}
+
+
+.btnabtuscon:hover {
+    color: black!important;
+    font-weight: 500;
+    width: 140px;
+    padding-left: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+.mainvideocon2 {
+    display: none;
+}
+
+.video {
+    background-attachment: fixed;
+}
+
+.video1 {
+    display: none;
+}
+}
+
+@media only screen and (max-width:600px){
+    .video {
+        
+        width: 100%;
+        height: 600px;
+    }
+    .homelayer {
+        position: absolute;
+        padding: 100px 0px;
+        top: 0px ;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(0,0,0, 0.95), rgba(8,83,156, 0.75));
+    }
+    .contenthome {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainvideocon {
+        display: none;
+    }
+    
+    .mainvideocon2 {
+        width: 100%;
+        height: 600px;
+        
+        background-size: cover;
+        position: relative;
+        top: 100px;
+       
+        margin-bottom: 90px;
+    }
+    
+    
+    .btnabtuscon,.btnabtuscon:after,.btnabtuscon:before {
+        transition: all .5s;
+    }
+    .btnabtuscon {
+        width: 110px;
+        height: 40px;
+        
+    
+       
+        background-color:#178582 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        color: white;
+        z-index: 10;
+        
+    }
+    
+    
+    .btnabtuscon:hover {
+        color: black!important;
+        font-weight: 500;
+        width: 140px;
+        padding-left: 20px;
+        background-color: #fff;
+        cursor: pointer;
+        
+    }
+    
+    
+    
+}

@@ -1,0 +1,70 @@
+
+    .tablemain {
+        width: 100%;
+        height: max-content;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        z-index: 100;
+        position: relative;
+    }
+    .spectableheading {
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .tablespec {
+        width: 100%;
+        height: max-content;
+        background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-wrap: wrap;
+        color: aliceblue;
+        border-radius: 4px;
+        box-shadow: 0px 3px 10px #222;
+        z-index: 100;
+    }
+    .tablecolumn {
+        
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        
+
+    }
+    .tablecolumninside {
+        width: 100%;
+        height: 50px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8px;
+        margin-bottom: 20px;
+
+        
+        align-items: center;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(3.4px);
+        -webkit-backdrop-filter: blur(3.4px);
+        border-radius: 3px;
+    }
+    .tableproperty {
+        width: 30%;
+        font-size: 0.95em;
+        font-weight: 600;
+    }
+    .tablevalue {
+        width: 55%;
+        font-size: 0.87em;
+        font-weight: 400;
+    }

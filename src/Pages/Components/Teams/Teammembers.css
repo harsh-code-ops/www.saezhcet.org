@@ -1,0 +1,181 @@
+.mainmemberscon {
+  width: 100%;
+  height: max-content;
+  padding: 30px 120px 100px 120px;
+}
+
+.teamheading {
+  font-size: 1.5em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.mm {
+  margin-bottom: 15px;
+}
+
+/* Leaders Section */
+.leaders {
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 80px;
+  background-color: #f3f5fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Leader Container - Horizontal Layout */
+.leadercon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Leader Card */
+.leader-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Leader Image */
+.leader-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Leader Name */
+.namemm {
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Leader Post */
+.postmm {
+  font-size: 0.85em;
+  text-align: center;
+  color: gray;
+}
+
+/* Icons */
+.leadericon,
+.tchnclicn,
+.managemnticon,
+.electronicsicon {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.leadericon {
+  background-image: url(../../../../public/assets/leadericon.jpg);
+}
+
+.tchnclicn {
+  background-image: url(../../../../public/assets/tchnicalicon.jpg);
+}
+
+.managemnticon {
+  background-image: url(../../../../public/assets/managementicon.png);
+}
+.electronicsicon {
+  background-image: url(../../../../public/assets/electronics_icon.png);
+}
+
+/* .webicon {
+  background-image: url(../../../../public/assets/website.jpg);
+} */
+
+/* Other Members Section */
+.restmembers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.halfteamcon {
+  background-color: #f3f5fa;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Member container layout (No Photos) */
+.coon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.hh {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Member names and posts */
+.namemm {
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.postmm {
+  font-size: 0.9em;
+  text-align: center;
+  color: gray;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .mainmemberscon {
+    padding: 30px 20px;
+  }
+
+  .leaders {
+    padding: 30px 10px;
+    width: 100%;
+  }
+
+  .leadercon {
+    justify-content: center;
+  }
+
+  .leader-card {
+    width: 120px;
+  }
+
+  .leader-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .restmembers {
+    flex-direction: column;
+  }
+
+  .halfteamcon {
+    width: 100%;
+  }
+}

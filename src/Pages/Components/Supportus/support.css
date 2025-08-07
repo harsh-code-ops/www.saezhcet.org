@@ -1,0 +1,441 @@
+@media only screen and (min-width: 600px){
+  .supportusmaindiv {
+      padding-top: 0px;
+      background-image: linear-gradient(21.47deg,#d0d8f5 -14.07%,#f4f5ff 46.4%,#fff 156.29%);
+  }
+    .uppersup {
+    width: 100%;
+    height: 230px;
+    /*background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% )!important;
+    */
+    background: radial-gradient(circle at center, #d0d8f5 0%, #f4f5ff 46.4%, #fff 156.29%);
+
+    color: white;
+    padding-top: 150px;
+   
+    
+    background-position: bottom;
+    position: relative;
+}
+.bottomcircle {
+    position: absolute;
+    bottom: 0px;
+    width: 300px;
+    height: 50px;
+    background-color: #09203f;
+    left: 50%;
+    transform: translate(-50%,0%);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.supportusheading{
+    color: #0a1828;
+     text-align: center;
+    font-size: 1.3em;
+    font-weight: 900;
+    
+
+}
+.supportusdesc {
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #178582;
+    text-align: center;
+}
+.detaildiv {
+    width: 100%;
+    height: 580px;
+    padding: 30px 100px 30px 100px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.leftqrdiv {
+    width: 50%;
+    height: 100%;
+    padding: 20px 40px 20px 0px ;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.96em;
+    font-weight: 500;
+    z-index: 30;
+}
+.rightbankdetails {
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    
+    
+}
+.Bankheading {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Bankdetails {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bankcolumn {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #09203f 0%, #537895 100%);
+    
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    
+}
+.property {
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-right: 20px;
+    color: aliceblue;
+
+}
+.value {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: aliceblue;
+}
+.copyicon {
+    position: absolute;
+    right: 0px;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.detailsup {
+    max-width: 1000px;
+    height: 400px;
+    background-color: #F0F8FF;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.qursup {
+
+    width: 50%;
+    height: 100%;
+    padding: 80px;
+}
+.Upiid {
+   padding-left: 80px;
+   font-weight: 700;
+   padding-top: 10px;
+   font-size: 1em;
+    
+}
+.accountdetailsup {
+    width: 50%;
+    display: flex;
+    
+    padding-top: 0px;
+    flex-wrap: wrap;
+    
+    
+}
+.banktitle {
+    float: left;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.detailscontainer {
+   padding: 0px;
+   width: 100%;
+}
+.bankdetail {
+    margin-top: 13px;
+    display: flex;
+}
+.det {
+    background-color:#F7F7F7;
+    font-style: italic;
+    font-weight: 400;
+}
+.mainlowerdiv {
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+    position: relative;
+        
+}
+.mainlowerleftdiv {
+    width: 45%;
+    padding: 50px;
+    z-index: 5;
+}
+.mainlowerrightdiv {
+    width: 55%;
+    padding: 50px;
+    z-index: 5;
+}
+.mainlowerdivtitle {
+    
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: aliceblue;
+   
+}
+.tiltedbox1 {
+    position: absolute;
+    clip-path: polygon(0 0, 75% 0%, 100% 50%, 82% 100%, 26% 100%, 0% 50%);
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 80%;
+    background-color: #233F5D;
+    z-index: 2;
+}
+.tiltedbox2 {
+    position: absolute;
+    clip-path: polygon(15% 0, 75% 0%, 100% 50%, 100% 100%, 26% 100%, 0% 50%);
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    height: 80%;
+    background-color: #233F5D;
+    z-index: 2;
+}
+.textmainlowerdiv {
+    font-size: 0.9em;
+    font-weight: 300;
+    color: aliceblue;
+}
+.image2100{
+    width: 100%;
+    height: 200px;
+}
+.querymsg {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .uppersup {
+        width: 100%;
+        height: 200px;
+        
+        padding-top: 40px!important;
+        background-image: linear-gradient(to bottom, #09203f 0%, #537895 100%);
+        
+    }
+    .supportusheading {
+        font-size: 1.2em;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        margin-bottom: 7px;
+
+    }
+    .supportusdesc {
+        padding-top: 5px!important;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 0.92em!important;
+        font-weight: 400!important;
+        color: white;
+    }
+    .detaildiv {
+        padding: 30px;
+        z-index: 50;
+        position: relative;
+    }
+    .leftqrdiv {
+        font-size: 0.9em;
+        font-weight: 600;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: justify;
+        z-index: 20;
+        position: relative;
+    }
+    .rightbankdetails {
+        
+        padding: 20px 10px;
+        background-color: white;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 0.2);
+        border-radius: 5px;
+        z-index: 20;
+        position: relative;
+    }
+    .Bankheading {
+        font-size: 1.2em;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .Bankdetails {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+        
+    }
+    .bankcolumn {
+        background-image: linear-gradient(to bottom, #09203f 0%, #537895 100%);
+        border-radius: 3px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .property {
+        font-size: 1em;
+        font-weight: 500;
+        gap: 8px;
+        text-align: justify;
+        color: aliceblue;
+        width: 25%;
+    }
+    .copyicon {
+        position: absolute;
+        right: 5px;
+        margin-left: 5px;
+       color: aliceblue;
+       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .value {
+        font-size: 0.9em;
+        font-weight: 500;
+        text-align: start;
+        color: aliceblue;
+        width: 70%;
+    }
+    .detailsup {
+        width: 100%;
+        border-radius: 0px;
+        height: max-content;
+        background-color: aliceblue;
+        padding-top: 30px;
+    }
+    .qursup {
+        padding-left: 30px;
+    
+        padding-right: 30px;
+        width: 100%;
+        height: max-content;
+        margin: 0px!important;
+        padding-bottom: 0px!important;
+    }
+    .image100 {
+        width: 100%;
+        height: 60%;
+        margin: 0 auto;
+        padding: 0px!important;
+        margin: 0px!important;
+    }
+    .Upiid {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 0px!important;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    .accountdetailsup {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 0px!important;
+    }
+    .bankdetail {
+        margin-bottom: 10px;
+    }
+    .banktitle {
+        font-size: 1.3em;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .mainlowerdiv {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 35px 0px;
+        background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+    }
+    .mainlowerdivtitle {
+        
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #eeeeee;
+
+    }
+    .textmainlowerdiv {
+        font-weight: 400;
+        font-size: 0.9em;
+        color: #eeeeee;
+    }
+    
+    .mainlowerleftdiv {
+        padding: 30px!important;
+        width: 100%;
+        height: max-content;
+    }
+    .mainlowerrightdiv {
+        width: 100%;
+        height: max-content;
+        padding: 2px!important;
+        
+
+    }
+    .image2100 {
+        width: 100%;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .querymsg {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .querymsg a {
+        text-decoration: none;
+        color: black;
+    }
+
+}

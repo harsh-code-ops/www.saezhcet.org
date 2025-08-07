@@ -1,0 +1,104 @@
+.membrcardouter {
+    width: 150px;
+    height: 195px;
+   
+    padding: 10px 5px 0px 5px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    color: white;
+    background-color: white;
+}
+.membrcardouter,.membrcardouter:after,.membrcardouter:before {
+    transition: all .5s;
+}
+
+
+.membrcardouter:after {
+    display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '';
+  color: transparent;
+  background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+  visibility: none;
+  border-radius: 10px;
+  opacity: 0;
+  color: aliceblue;
+  z-index: -1;
+}
+.membrcardouter:hover:after {
+    opacity: 0.8;
+  visibility: visible;
+  height: 100%;
+ color: aliceblue;
+  
+}
+.membrcardouter:hover .membercardname {
+    color: aliceblue;
+}
+.membrcardouter:hover .membercarddep {
+    color: rgb(202, 207, 211);
+}
+.membrcardouter:hover .membercardconnect {
+    color: aliceblue;
+}
+
+
+
+
+.membercardimage {
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    border-top: 3px solid #178582;
+    border-bottom: 3px solid #0a1828;
+
+}
+.membercardrdesc {
+    width: 100%;
+    
+    
+    
+    text-align: center;
+    padding-top: 10px;
+}
+   .membercardname {
+       font-size: 0.94em;
+       font-weight: 600;
+       color: black;
+       line-height:0.94em;
+       margin-bottom: 8px;
+       
+   }
+   .membercarddep {
+       font-size: 0.83em;
+       line-height:0.83em;
+       font-weight: 400;
+       position: relative;
+       top: -3px;
+       color: black;
+   }
+
+.membercardconnect {
+    width: 100%;
+    padding: 13px 10px 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: #0a1828;
+}
+.ic:hover {
+    transform: scale(1.1);
+    color: rgb(224, 230, 235);
+}

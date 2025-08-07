@@ -1,0 +1,87 @@
+.vehiclemainevcontainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+    color: aliceblue;
+}
+.teampageevheading {
+    font-size: 1.1em;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+.vehcilesconev {
+    display: flex;
+    width: 85%;
+    
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.header1{
+    width: 150px;
+    text-decoration:underline;
+    flex: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .vehiclemaincontainer {
+      padding-top: 0px;
+      
+     
+    
+    
+    }
+    .teampageevheading {
+        font-size: 1em;
+        width: 100%;
+       text-align: center;
+       color: white;
+       padding-top: 8px;
+    }
+    .vehcilesconev {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header1{
+        width: max-content;
+        height: auto;
+        margin-top: 25px;
+        margin-left: 75px;
+        justify-content: center;
+        padding: 8px;
+        border-radius:10px ;
+        flex: 100%;
+        
+     
+        
+    }
+    .text1{
+    
+        padding: 10px;
+        text-align: left;
+        font-size: 32px;
+      
+    }
+
+
+    .Cardmain{
+      
+       flex: 100%;
+       flex-direction: column;
+       margin: auto;
+   
+    }
+    .Card{
+        
+        flex: 100%;
+        margin-top: 20px;
+    }
+  
+ }

@@ -1,0 +1,437 @@
+.errred {
+   color: red;
+}
+
+@media only screen and (min-width: 600px) {
+    .mainapplydiv {
+        width: 100%;
+        height: max-content;
+        background-image: linear-gradient(21.47deg,#d0d8f5 -14.07%,#f4f5ff 46.4%,#fff 156.29%);
+        
+        
+        
+      
+       
+        
+    }
+    .backgroundposition {
+        display: none;
+    }
+   
+    .upperheadingapply {
+        width: 100%;
+        height: 230px;
+        padding-top: 130px;
+       
+       
+        background-position: bottom;
+        background: radial-gradient(circle at center, #d0d8f5 0%, #f4f5ff 46.4%, #fff 156.29%);
+
+    }
+    .applyhead {
+        padding-top: 20px;
+        font-size: 1.3em;
+    font-weight: 900;
+    color: #0a1828;
+    text-align: center;
+    
+        
+
+    }
+    .applyheaddesc {
+        font-size: 0.8em;
+        padding-top: 5px;
+        font-weight: 600;
+        color: #178582;
+        text-align: center;
+    }
+    .formapplycontainer {
+        width: 100%;
+        height: 600px;
+        padding: 0px 0px 0px 0px;
+        
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+    }
+    .mainformcon {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+        padding-top: 50px;
+        position: relative;
+        padding-left: 80px;
+        padding-right: 80px;
+            
+    }
+    
+    .formconapply {
+        width: 50%;
+        background-color: white;
+        z-index: 30;
+        padding: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        border-radius: 5px;
+        
+    }
+    .formconhead {
+        font-size: 0.9em;
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
+    
+    .mainform {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+    .labeldivapply {
+        width: 100%;
+    }
+    .namecon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .emailphonecon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+
+    }
+    .emailphone {
+        width: 50%;
+    }
+    .enrfacno {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+
+    }
+    .enrfac {
+        width: 50%;
+    }
+    .branchyrcon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+
+
+    }
+    .branchyr {
+        width: 50%;
+    }
+    .upload {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+        gap: 5px;
+       
+    }
+    .uploadicon {
+        width: 5%;
+        height: 28px;
+        font-size: 1.4em;
+        display: flex;
+       
+        align-items: center;
+    }
+    .fileinput {
+        background-color:white;
+        color: #178582;
+        font-size: 0.8em;
+        font-weight: 600;
+        border: none;
+    }
+    input#file-upload-button {
+        background-color: #178582;
+        color: #178582;
+    }
+    .uploadinput {
+        width: 60%;
+    }
+    .uploadstatus {
+        width:40%;
+        color: #2F923F;
+        font-size: 0.9em;
+        background-color: aliceblue;
+        font-weight: 700;
+        cursor: pointer;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btnapply {
+        margin-top: 30px;
+        width: 100%;
+        border: none;
+        background-color: #178582;
+        height: 32px;
+        border-radius: 4px;
+        color: whitesmoke;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+    select {
+        height: 28px;
+    }
+   
+    .perks {
+        width: 40%;
+        
+        height: 100%;
+        padding: 0px 20px 50px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 10;
+        
+    }
+    .perkbg1 {
+        width: 100%;
+        height: 85%;
+        background-color: #6BB8B8;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        border-top-left-radius: 70%;
+        border-top-right-radius: 30%;
+        
+        z-index: 0;
+        opacity: 0.5;
+        
+    }
+    .perkbg2 {
+        width: 100%;
+        height: 70%;
+        background: linear-gradient(45deg, rgba(245,70,66, 0.35), rgba(8,83,156, 0.35));
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        border-top-left-radius: 70%;
+        border-top-right-radius: 30%;
+        
+        z-index: 0;
+        opacity: 0.5;
+        
+    }
+    .perkdiv {
+        width: 100%;
+        height: 120px;
+       
+        padding: 10px 5px 10px 10px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+        border-radius: 15px;
+        
+    }
+    .perkicon {
+        width: 26%;
+        height: 100%;
+       
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .headingplusdesc {
+        width:70% ;
+        height: 100%;
+
+    }
+    .headingperks {
+        font-size: 1.1em;
+        font-weight: 700;
+        margin-bottom: 3px;
+    }
+    .perksdesc {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .applybtn {
+        background-color:#2F923F;
+        border-style: none;
+        border-radius: 5px;
+        box-shadow: 0 6px 65px #27497d17;
+        color: white;
+        margin-top: 5px;
+        height: 30px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .mainapplydiv {
+        width: 100%;
+
+        
+    }
+   
+    .upperheadingapply {
+        width: 100%;
+        height: 200px;
+        padding: 80px 0px;
+        background-image: linear-gradient(to bottom, #09203f 50%, #537895 100%);
+    }
+    .applyhead {
+        font-size: 1.1em;
+        font-weight: 800;
+        color: whitesmoke;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    .applyheaddesc {
+        font-size: 0.9em;
+        font-weight: 500;
+        color: whitesmoke;
+        text-align: center;
+        
+    }
+    .formapplycontainer {
+        width: 100%;
+        height: max-content;
+        background-color: aliceblue;
+    }
+    .mainformcon{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .formconapply {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .formconhead {
+        font-size: 0.9em;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .mainform {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .namecon {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+    .labeldivapply {
+        width: auto;
+    }
+    input {
+        width: 100%;
+        height: 28px!important;
+    }
+    .labels {
+        font-size: 0.8em;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .emailphonecon {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .enrfacno {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+    .branchyrcon {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .upload {
+        display: flex;
+        gap: 3px;
+        
+    }
+    .uploadicon {
+        display: flex;
+        align-items: center;
+        font-size: 1.3em;
+    }
+    .uploadinput {
+        width: 70%;
+        border: none;
+        color: #178582;
+        
+    }
+    .fileinput {
+        background-color:white;
+        color: #178582;
+        font-size: 0.8em;
+        font-weight: 600;
+        border: none;
+    }
+    .uploadstatus {
+        width: 20%;
+    }
+    .btnapply {
+        margin-top: 30px;
+        width: 100%;
+        border: none;
+        background-color: #178582;
+        height: 32px;
+        border-radius: 4px;
+        color: whitesmoke;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+    .perks {
+        background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+        width: 100%;
+        padding: 60px 10px 10px 10px;  
+    }
+    .perkdiv {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 200px;
+        gap: 4px;
+    }
+    .perkicon {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .headingplusdesc {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .headingperks {
+        font-size: 1.1em;
+        font-weight: 700;
+        color: aliceblue;
+        
+    }
+    .perksdesc {
+        font-size: 0.88em;
+        font-weight: 400;
+        color: white;
+    }
+}

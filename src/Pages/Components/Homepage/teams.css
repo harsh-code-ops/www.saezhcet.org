@@ -1,0 +1,104 @@
+.teammaincontainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom:50px;
+    background-color: #f7f7ff;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-image: url(../../../../public/assets/ysupport.png);
+}
+.traingle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    border: none;
+    background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+    clip-path: polygon(100% 70%, 0% 100%, 100% 100%);
+}
+.teaminside {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+    
+    z-index: 10;
+
+}
+
+
+.cardcon {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 300;
+    flex-wrap: wrap;
+
+}
+.teamheading {
+    padding-bottom: 0px;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 600;
+    
+    font-size: 1.6em;
+    
+    text-align: center;
+    color: black;
+    
+    font-family: 'Oswald', sans-serif;
+
+}
+.teamheadingdesc {
+    font-size: 1em;
+    color: #aaaaaa;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.View {
+    animation: anim 5s infinite ;
+}
+@keyframes anim {
+    from {
+        scale: 0.2;
+    }
+    to {
+        scale: 1;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .teammaincontainer {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .teaminside {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .cardcon {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    
+  
+ }

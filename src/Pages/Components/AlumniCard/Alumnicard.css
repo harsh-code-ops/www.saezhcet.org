@@ -1,0 +1,118 @@
+.mainalumbox {
+    width: 340px;
+    height: 160px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    background-color: whitesmoke;
+    
+}
+.mainalumbox,.mainalumbox:after,.mainalumbox:before {
+    transition: all .5s;
+}
+.mainalumbox:hover {
+    transform: scale(1.01);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 40%);
+    color: aliceblue;
+}
+.mainalumbox:after {
+    display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '';
+  color: transparent;
+  background-image: linear-gradient(to right, #09203f 0%, #537895 100%);
+  visibility: none;
+  border-radius: 5px;
+  color: aliceblue;
+  opacity: 0;
+  z-index: -1;
+}
+.mainalumbox:hover:after {
+    opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+
+.leftalumbox {
+    width: 140px;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.photocirclealum {
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+     
+    
+}
+.linkedincircle {
+    width: 30px;
+    height: 30px;
+    background-color: #178582;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:28px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.linkedincircle a {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+}
+
+
+.rightalumbox {
+    padding: 30px 20px;
+    
+
+}
+
+
+  .Namealum{
+      font-size: 1em;
+      font-weight: 650;
+      margin-bottom: 5px;
+
+  }
+
+
+
+  .position {
+      font-size: 0.8em;
+      font-weight: 500;
+      margin-bottom: 4px;
+  }
+
+
+
+  .alumcompany {
+      font-size: 0.8em;
+      font-weight: 500;
+  }

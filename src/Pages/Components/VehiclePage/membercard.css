@@ -1,0 +1,119 @@
+.c10 {
+    width: 160px;
+    height: 190px;
+    
+    border-radius: 8px;
+    box-shadow: 0px 4px 75px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+}
+.maincard {
+    width: 100%;
+    height: 100%;
+    
+    padding: 15px;
+
+}
+.maincard,.maincard:after,.maincard:before {
+    transition: all .5s;
+}
+.maincard {
+    color: black !important;
+    position:relative;
+    z-index: 1;
+    margin-left: 20px;
+    font-weight: 500;
+    
+}
+.maincard:hover {
+    color: white!important;
+    
+}
+.maincard:after {
+    display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: black;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 10px;
+}
+.maincard:hover:after {
+    opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+
+
+
+.imgcontainer {
+    width: 100%;
+    height:80% ;
+    
+    
+
+}
+.blurback {
+    filter: blur(2px);
+   
+}
+.followlinks {
+    display: none;
+}
+.details {
+    width: 100%;
+    height:20% ;
+    
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+.cardName {
+    font-family: "Oswald",sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 2px;
+}
+.cardDept {
+    font-family: "Oswald",sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 2px;
+    padding-bottom: 4px;
+
+}
+.iconsdisplay {
+    width: 60%;
+    
+    background:rgba(255, 255, 255, 0.4);
+   position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    z-index: 100;
+    position: relative;
+    top: -50%;
+
+}
+.iconsnodisplay {
+    display: none;
+}
+
+@media  screen and (max-width:480px) {
+    .c10 {
+        width:150px;
+        height:190px;
+    }
+    
+}

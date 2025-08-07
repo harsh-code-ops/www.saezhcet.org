@@ -1,0 +1,108 @@
+.mainachvbox {
+    width: 90%;
+    padding: 30px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    position: relative;
+   
+
+}
+.relbg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(45deg, rgba(245,70,66, 0.85), rgba(8,83,156, 0.85)),url("../../../../public//assets/fourthslide.jpeg");
+    z-index: 1;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: cen;
+}
+.eventnametop {
+    font-size: 1.4em;
+    font-weight: 800;
+    text-align: center;
+    z-index: 5;
+}
+.rankimg {
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    background-size: cover;
+    background-image: url(../../../../public/assets/rankimg.png);
+    z-index: 1;
+}
+.topboxx {
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.overallrank {
+    width: 150px;
+    height: 150px;
+    position: relative;
+   
+
+}
+.ranktext {
+    
+    position: absolute;
+    top: 20px;
+    left: 43%;
+    font-size: 2em;
+    font-weight: 1000;
+    color: aliceblue;
+}
+.ranktextscript {
+    position: absolute;
+    top: 22px;
+    left: 53%;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: aliceblue;
+
+}
+.achvname {
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+    color: aliceblue;
+}
+.lowerboxx {
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    
+}
+.complementary {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+@media only screen and (max-width:600px) {
+    .lowerboxx {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .eventnametop {
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    
+}

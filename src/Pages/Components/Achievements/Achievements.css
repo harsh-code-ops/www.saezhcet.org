@@ -1,0 +1,55 @@
+
+.mainachv {
+    background-color: #f4f5ff;
+}
+.upperachvnav {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    width: 100%;
+   
+    
+    background:linear-gradient(to left,rgba(23,133,130,.92), rgba(0,0,0,.92)), url(../../../../public//assets/firstslide.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.light {
+    background-color: aliceblue;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.light:hover {
+    cursor: pointer;
+}
+.none {
+    background-color: gray;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.conachv {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.achvevents {
+    width: 90%;
+    height: 300px;
+    box-shadow: rgba(0,0,0,.7);
+    margin: 0 auto;
+}
+.img5th {
+    background-image: url();
+}

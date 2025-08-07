@@ -1,0 +1,42 @@
+.errorcon {
+    background-image:linear-gradient(45deg, rgba(0,0,0, 1), rgba(8,83,156, 0.7)),url("https://drive.google.com/uc?id=13EA9KOTWf9hoUeS2raSryiuwBB13upMJ");
+    background-size: cover;
+    width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+.h1 {
+    font-size: 160px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+.h2 {
+    margin-top: 0;
+  max-width: 700px;
+  font-size: 30px;
+  width: 90%;  
+}
+.h3 {
+    font-size: small;
+    margin-bottom: 20px;
+}
+.returnbtnn {
+    display: inline-block;
+  border: 1px solid #aaa;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.returnbtnn:hover {
+    color: #e2e2e2;
+    background: rgba(255,255,255,0.10);
+    cursor: pointer;
+    z-index: 10;
+}

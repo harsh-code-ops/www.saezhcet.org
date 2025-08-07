@@ -1,0 +1,15 @@
+.swiper-pagination-bullet {
+    background-color: gray!important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 18px!important;
+    border-radius: 5px!important;
+
+}
+.swiper-button-prev {
+    display: none!important;
+}
+.swiper-button-next {
+    display: none!important;
+}

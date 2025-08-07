@@ -1,0 +1,61 @@
+.twologos {
+    width: 100%;
+    height: 88px;
+  
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px 100px;
+    position: fixed;
+    top: 0px;
+    transition: top 0.3s;
+    z-index: 10000;
+    background-color: #0d0d0d;
+}
+.no {
+    background-color: #1F2937;
+}
+.firstlogo {
+    height: 68px;
+    width: 230px;
+    background-size: cover;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+
+
+
+}
+.secondlogo {
+    height: 90px;
+    width: 190px;
+    background-size: cover;
+    position: relative;
+    top: -25px;
+    -webkit-filter: brightness(0) invert(1);
+      filter: brightness(0) invert(1);
+   
+
+
+}
+.no {
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    position: fixed;
+    top: -88px;
+    transition: top 0.3s;
+    background-color:#191919;
+    padding: 10px 100px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .twologos {
+        display: none;
+    }
+    .no {
+        display: none;
+    }
+}
