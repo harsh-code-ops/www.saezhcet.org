@@ -24,7 +24,7 @@ export default [
     LinkedIn: "",
     Insta: "",
     Email: "",
-    Img: "Haris.png",
+    Img: "",
   },
 
   {

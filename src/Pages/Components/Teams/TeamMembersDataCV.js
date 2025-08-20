@@ -7,7 +7,7 @@ export default [
         LinkedIn: "",
         Gmail: "",
         Insta: "",
-        Photo: "/assets/Saif.jpg",
+        Photo: "/assets/saif.jpg",
       },
       {
         Name: "Mohammad Mudassir Ali",
@@ -15,7 +15,7 @@ export default [
         LinkedIn: "",
         Gmail: "",
         Insta: "",
-        Photo: "/assets/Mudassir.jpg",
+        Photo: "/assets/mudassir.jpg",
       },
       {
         Name: "Yashra Malik",
